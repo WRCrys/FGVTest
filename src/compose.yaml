@@ -1,0 +1,7 @@
+﻿services:
+  fgvtest.api:
+    image: fgvtest.api
+    build:
+      context: .
+      dockerfile: FGVTest.Api/Dockerfile
+
